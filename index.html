@@ -3,8 +3,14 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta http-equiv="Content-Type" content="text/html; ISO-8859-1">
+        <META NAME="DC.Language" SCHEME="RFC1766" CONTENT="Spanish">
+        <META NAME="AUTHOR" CONTENT="Isai Ronaldo Martinez">
+        <META NAME="DESCRIPTION" CONTENT="En prototype somos especialistas en el desarrollo de soluciones web.">
+        <META NAME="KEYWORDS" CONTENT="prototype-group,grupo prototype, desarrollo,web">
+        <META NAME="DateCreated" CONTENT="Mon, 13 april 2021 00:00:00 GMT-6">
+        <META NAME="Revisit-after" CONTENT="7 days">
+        <META NAME="robots" content="ALL">
         <title>Prototype</title>
         <link rel="icon" type="imagen/ico" href="img/proto-min.png">
         <!-- Favicon-->
@@ -17,6 +23,11 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!--ScrollReveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
     </head>
     <body id="page-top">
         <!-- Navegación-->
@@ -28,7 +39,7 @@
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="nosotros.html">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -97,7 +108,7 @@
             </div>
         </section>
         <!-- Portfolio-->
-        <div id="portfolio">
+        <div class="portafolio" id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                     <div class="col-lg-4 col-sm-6">
@@ -158,33 +169,7 @@
             </div>
         </div>
 
-        <!--Nosotros-->
-        <div class="page-section" id="nosotros">
-            <h3 class="text-center">Nosotros</h3>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="h4 col-lg-6 text-center my-4">
-                        <h3>Misión</h3>
-                        <hr class="divider my-4" />
-                        <p></p>
-                        <p class="text-muted">Ayudar a nuestros clientes a alcanzar el máximo beneficio
-                             posible facilitándoles una presencia en la web a través de la calidad de 
-                             nuestras soluciones gracias al apoyo de nuestros eficientes y altamente 
-                             capacitados colaboradores.</p>
-                    </div>
-                    <div class="h4 col-lg-6 text-center my-4">
-                        <h3>Visión</h3>
-                        <hr class="divider my-4" />
-                        <p></p>
-                        <p class=" text-muted ">Consolidarnos como una empresa líder en la provisión 
-                            de soluciones informáticas y de gestión a medida, siendo conocidos por 
-                            nuestra calidad e innovación, promoviendo el uso eficiente de recursos 
-                            adaptándonos a las cambiantes condiciones del mercado y a las demandas y 
-                            necesidades de los clientes.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- Contacto-->
         <section class="page-section bg-dark" id="contact">
             <div class="container">
@@ -215,7 +200,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="bg-light py-5">
+        <footer class="bg-light py-4">
             <div class="container"><div class="text-center text-dark">Copyright © 2021 - Prototype Group</div></div>
         </footer>
         <!-- Bootstrap core JS-->
@@ -226,6 +211,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/index.js"></script>
         <script>
             if (screen.width < 1024) {
                 $("#nav-logo").attr('src', 'img/proto-m-sin-fon-b.png')
